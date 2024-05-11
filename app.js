@@ -1,8 +1,10 @@
 // var emty = "";
+// var pass = "";
+// var password = "";
 // function range(){
 //     var len = document.getElementById("length").value
 //     document.getElementById("length-value").innerHTML = len
-// }
+//     // var len1 = document.getElementById("length").value
     
 //     // symbols...............!!
 //     var simbol = document.getElementById("specialsCb").checked
@@ -19,12 +21,16 @@
 //    else if (small == true){
 //         emty += "asdfghjklqwertyuiopxcvbnm"
 //     }
-//    else if (cap == true){
+// //    else if (cap == true){
 //         emty += "ASDFGHJKLQWERTYUIOPZXCVBNM"
 //     }
-//    else if (count == true){
+//     else if (count == true){
 //         emty += "1234567890"
 //     }
 
-//     emty = math.floor(math.random() * emty.length)
-     
+//     for(var i = 0; i < len; i++){
+//         pass = Math.floor(Math.random() * emty.length)
+//         password += emty[pass]
+//     }
+//     console.log(password)
+// }

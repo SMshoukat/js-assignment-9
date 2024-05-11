@@ -1,8 +1,9 @@
-// function generate(){
-    
-    // }
-    
-    function range(){
+
+function range(){
+    var len = document.getElementById("length").value
+    document.getElementById("length-value").innerHTML = len
+}
+function generate(){
         var len = document.getElementById("length").value
         document.getElementById("length-value").innerHTML = len
         
